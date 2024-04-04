@@ -50,7 +50,7 @@ class Keylogger:
 
     def create_gui(self):
         root = Tk()
-        root.title("Keylogger")
+        root.title("My Keylogger")
 
         self.label = Label(root, text='Click "Start" to begin keylogging.')
         self.label.config(anchor=CENTER)
